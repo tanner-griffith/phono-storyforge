@@ -3,6 +3,12 @@
 ![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 
+Phono is an experiment in personalized reading for early and struggling readers, especially kids with dyslexia.
+
+StoryForge is the current prototype. It creates decodable reading material around a child’s phonics needs and interests, observes how they actually read it, and uses that evidence to decide what they should practice next.
+
+I’m now exploring how Phono could expand beyond a single adaptive tutor into a broader set of personalized reading resources for families.
+
 Phono StoryForge is a **closed-loop adaptive reading tutor** for early and struggling readers (dyslexia-aware), built on Google's Agent Development Kit (ADK). It doesn't just generate a decodable storybook once — it keeps a per-child mastery model, decides what phonics skill to teach next from that child's own reading evidence, generates a book guaranteed decodable at exactly that level, listens to the child read it, attributes every miscue down to the specific grapheme, updates the mastery model, and lets the *next* book change because of how this read went.
 
 Built as the capstone project for Google/Kaggle's **5-Day AI Agents Intensive — Vibe Coding Capstone**, Track: **Agents for Good** (education).
